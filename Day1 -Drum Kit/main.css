@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.key {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    transition: all .05s ease-in-out;
+    border: 2px solid #efe;
+    text-align: center;
+    cursor: pointer;
+}
+.key kbd {
+    font-size: 2em;
+    color: #0e4dee;
+}
+.sound {
+    display: block;
+    text-align: center;
+}
+.playing {
+    transform: scale(1.1);
+    border: 4px solid #4edede;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+}
